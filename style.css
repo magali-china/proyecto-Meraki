@@ -10,111 +10,189 @@ selector {
 font-family: 'Amatic SC', cursive;
 font-family: 'Caveat', cursive;
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-image: url(./imagenes/fondo.jpg) ;
-    background-size: cover;    
-    background-position: top;
+body {
+  background-image: url(./imagenes/fondo.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 100vh;
 }
 
-.logoPrincipal{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    left: 10px;
-    top: 10px
+.contenedor {
+  display: grid;
+  grid-template-areas:
+    ". logo . "
+    "cabecera cabecera cabecera"
+    "principal principal principal "
+    "pie pie pie";
 }
 
-a{
-    text-decoration: none;
+.logo {
+  grid-area: logo;
 }
+.header {
+  grid-area: cabecera;
+}
+
+.main {
+  grid-area: principal;
+}
+
+.footer {
+  grid-area: pie;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .barraNavegacion__lista li {
-    font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: underline;
+  list-style: none;
+  display: inline-block;
+  padding-left: 30px;
+  position: relative;
+  left: 120px;
+  top: 10px;
+}
+
+.barraNavegacion__lista li a {
+  color: #df4ee4;
+}
+
+.barraNavegacion__lista li :hover {
+  color: #8d2791;
+  transition: 1s;
+  text-shadow: none;
+}
+
+main {
+  min-height: 400px;
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.botones_item {
+  text-align: center;
+  border-radius: 30px;
+  border: solid black 1px;
+  height: 200px;
+  width: 300px;
+  font-family: "Amatic SC", cursive;
+  color: #9f28a3;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 100px;
+}
+
+.form {
+  position: relative;
+  bottom: 30px;
+}
+.input {
+  height: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  position: relative;
+  left: 200px;
+}
+
+.input-mensaje {
+  height: 50px;
+  width: 250px;
+  padding-bottom: px;
+  text-align: center;
+  position: relative;
+  left: 160px;
+}
+
+.input-button {
+  position: relative;
+  left: 240px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #c733cc;
+}
+
+.iconos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.iconos-footer {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 30px;
+}
+
+/*  MOBILE FIRST */
+
+@media only screen and (max-width: 1024px) {
+  .barraNavegacion__lista li {
+    position: relative;
+    top: 20px;
+    left: 150px;
     font-size: 40px;
-    font-weight:bold;
-    text-decoration: underline;
-    list-style: none;
-    display: inline-block;
-    padding: 20px 10px 5px 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
     position: relative;
-    left: 400px;
-    bottom: 100px;    
-} 
+    left: 20px;
+  }
 
-.barraNavegacion__lista li a{
-    color: #df4ee4;
+  .barraNavegacion__lista li {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    right: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+  }
 }
 
-.barraNavegacion__lista li :hover{
-    color: #8d2791;
-    transition: 1s;
-    text-shadow: none;
-}
+@media only screen and (max-width: 320px) {
+  .logo {
+    position: relative;
+    left: 5px;
+  }
 
-    
-section{
-    height: 350px;
-}
-.section{
-    text-align: center;
-    border-radius: 30px;
-    border: solid black 1px ;
+  .barraNavegacion__lista li {
+    left: 2px;
     display: block;
-    margin: 35px;
-    font-family: 'Amatic SC', cursive;
-    color:#9f28a3;
-    font-size: 60px;
-}
-
-.form{
-    position: relative;
-    bottom: 30px;
-
-}
-.input{
-    height: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     text-align: center;
-    position: relative;
-    left: 200px;
+  }
 
-}
-
-.input-mensaje{
-    height: 50px;
-    width: 250px;
-    padding-bottom: px;
-    text-align: center;
-    position: relative;
-    left: 160px;
-}
-
-.input-button{
-    position: relative;
-    left: 240px;
-}
-
-/* FOOTER */ 
-
-footer{
-    background-color: #c733cc;
-    height: 120px;
-    position: relative;
-    bottom: 0;
-}
-
-
-.logos{
+  .iconos-footer {
     height: 50px;
     width: 50px;
     display: inline-block;
-    margin: 30px;
-    position: relative;
-    left: 520px;
-    top: 10px;    
+    margin: 20px;
+  }
 }
