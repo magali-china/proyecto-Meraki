@@ -196,3 +196,40 @@ footer {
     margin: 20px;
   }
 }
+
+/* QUIENES SOMOS */
+
+.contenedor-quienesSomos{
+  display: grid;
+  grid-template-areas:
+    ". logo . "
+    "cabecera cabecera cabecera"
+    "principal principal principal "
+    "pie pie pie";
+}
+
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+.info-item{
+  display: inline-block;
+  margin: 40px;
+  
+}
+.foto-quienes-somos{
+  width: 500px;
+  height: 350px;
+}
+
+.lorem{
+   text-align: start;
+   font-size: 20px;
+   width: 500px;
+}
+
+
+
+
