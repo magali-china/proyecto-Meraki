@@ -105,37 +105,16 @@ main {
   padding-top: 100px;
 }
 
-.form {
+/* .form {
   position: relative;
-  bottom: 30px;
-}
-.input {
-  height: 25px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  position: relative;
-  left: 200px;
-}
-
-.input-mensaje {
-  height: 50px;
-  width: 250px;
-  padding-bottom: px;
-  text-align: center;
-  position: relative;
-  left: 160px;
-}
-
-.input-button {
-  position: relative;
-  left: 240px;
-}
+  top: 80px ;
+} */
 
 /* FOOTER */
 
 footer {
   background-color: #c733cc;
+  background: linear-gradient(to right, #c733cc, #e98fec);
 }
 
 .iconos {
@@ -199,14 +178,6 @@ footer {
 
 /* QUIENES SOMOS */
 
-.contenedor-quienesSomos{
-  display: grid;
-  grid-template-areas:
-    ". logo . "
-    "cabecera cabecera cabecera"
-    "principal principal principal "
-    "pie pie pie";
-}
 
 .info{
   display: flex;
@@ -225,11 +196,46 @@ footer {
 }
 
 .lorem{
-   text-align: start;
-   font-size: 20px;
-   width: 500px;
+  text-align: start;
+  font-size: 20px;
+  width: 500px;
+}
+
+/* CONTACTO */
+.main-general{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin:50px;
+  position: relative;
+  top: 60px;
+}
+
+.input {
+  height: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  position: relative;
+  left: 80px;
+}
+
+.input-mensaje {
+  height: 50px;
+  width: 250px;
+  padding-bottom: px;
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+
+.input-button {
+  position: relative;
+  left: 130px;
 }
 
 
-
+/* .mapa{
+  margin: 40px;
+} */
 
