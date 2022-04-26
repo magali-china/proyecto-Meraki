@@ -69,14 +69,16 @@ a {
   position: relative;
   left: 120px;
   top: 10px;
+  transition: transform 3s;
 }
 
 .barraNavegacion__lista li a {
   color: #df4ee4;
 }
 
-.barraNavegacion__lista li :hover {
+.barraNavegacion__lista li:hover {
   color: #8d2791;
+  transform: scale(1.2);
   transition: 1s;
   text-shadow: none;
 }
@@ -105,10 +107,7 @@ main {
   padding-top: 100px;
 }
 
-/* .form {
-  position: relative;
-  top: 80px ;
-} */
+
 
 /* FOOTER */
 
@@ -235,7 +234,5 @@ footer {
 }
 
 
-/* .mapa{
-  margin: 40px;
-} */
+
 
