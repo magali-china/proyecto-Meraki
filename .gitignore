@@ -1,0 +1,6 @@
+# obligatorio
+/node_modules
+
+
+# opcional
+package-lock.json
