@@ -266,7 +266,6 @@ main {
 
 section{
   height: 500px;
-  
   margin:5%;
 }
 
@@ -293,5 +292,26 @@ p{
   align-items: center; */
 }
 
+.footer{
+  background-color: #df4ee4  ;
+}
 
+.iconos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.iconos-footer {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 30px;
+} 
 
+@media (max-width: 768px) { 
+  
+    .footer{
+      position: relative;
+      top:850px;
+    }
+} 
