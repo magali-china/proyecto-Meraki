@@ -307,9 +307,18 @@ p{
   display: inline-block;
   margin: 30px;
 } 
+.foto-quienes-somos{
+  width: 400px;
+  height: 350px;
+}
+
+.lorem{
+  text-align: start;
+  font-size: 20px;
+  width: 400px;
+}
 
 @media (max-width: 768px) { 
-  
     .footer{
       position: relative;
       top:850px;

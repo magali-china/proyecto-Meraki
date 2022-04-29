@@ -12,45 +12,65 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&display=swap" rel="stylesheet">
 
+      <!-- BOOTSTRAP -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- MI CSS  -->
+      <link rel="stylesheet" href="style.css">
+
     <title>Quienes somos</title>
   </head>
   <body>
     <div class="contenedor"> 
-      <img src="../imagenes/logo-meraki.jpeg"  alt="Logo de Meraki" class="logo" />
       <header class="header">
-        <nav  class="barraNavegacion"> 
-          <ul class="barraNavegacion__lista">
-            <li>
-              <a href="../index.html"> Home</a>
-           </li>
-            <li>
-              <a href="#"> Quienes somos</a>
-           </li>
-            <li> 
-             <a href="libreria.html"> Libreria</a>
-           </li>
-            <li>
-              <a href="jugueteria.html"> Jugueteria</a>
-           </li>
-            <li>
-              <a href="contacto.html">Contacto</a>
-            </li>
-        </ul>
-      </nav>
-     </header>
-     <main class="main">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">              
+              <img src="../imagenes/logo-meraki.jpeg"  alt="Logo de Meraki" class="logo animate__animated animate__zoomIn rounded-circle " /> 
+               </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active mx-2" aria-current="page" href="../index.html">Home</a>
+                <a class="nav-link mx-2 " href="../paginas/libreria.html">Libreria</a>
+                <a class="nav-link mx-2 " href="../paginas/jugueteria.html">Jugueteria</a>
+                <a class="nav-link mx-2 " href="#">Quienes somos</a>
+                <a class="nav-link mx-2" href="../paginas/contacto.html">Contacto</a>
+
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section> 
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12">
+              <p class="info-item lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur ad placeat, nobis hic ab ea possimus eveniet labore dicta nulla illo obcaecati recusandae quas inventore vel porro deleniti, corrupti reiciendis harum doloremque quisquam iste est saepe? Enim dignissimos quas labore ex temporibus rem cum ab odio earum dolor quae quaerat atque dolore recusandae unde, laborum in, consequuntur ea? Et illum officia, tenetur minima provident, exercitationem qui aut accusantium, a placeat reiciendis nobis fugiat esse est animi? Labore hic minus excepturi aspernatur. Quas iure dicta placeat totam tenetur quibusdam ducimus dolore quod, sint veritatis beatae a tempora hic nostrum ab? </p>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+              <img src="../imagenes/foto-ilustrativa.jpeg" alt="Foto ilustrativa de empleados" class=" info-item foto-quienes-somos">
+
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- <main class="main">
        <div class="info">
          <p class="info-item lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur ad placeat, nobis hic ab ea possimus eveniet labore dicta nulla illo obcaecati recusandae quas inventore vel porro deleniti, corrupti reiciendis harum doloremque quisquam iste est saepe? Enim dignissimos quas labore ex temporibus rem cum ab odio earum dolor quae quaerat atque dolore recusandae unde, laborum in, consequuntur ea? Et illum officia, tenetur minima provident, exercitationem qui aut accusantium, a placeat reiciendis nobis fugiat esse est animi? Labore hic minus excepturi aspernatur. Quas iure dicta placeat totam tenetur quibusdam ducimus dolore quod, sint veritatis beatae a tempora hic nostrum ab? </p>
          <img src="../imagenes/foto-ilustrativa.jpeg" alt="Foto ilustrativa de empleados" class=" info-item foto-quienes-somos">
        </div>
-      </main>
-     <footer class="footer ">
+      </main> -->
+      <footer class="footer ">
         <div class="iconos" >  
-          <a href="https://www.facebook.com/profile.php?id=100057840344493" target="_blank" > <img src="../imagenes/logotipo-facebook.png"  alt="Logo-facebook" class="iconos-footer" > </a>
-          <a href="https://www.instagram.com/meraki_librerias/" target="_blank" > <img src="../imagenes/logo-instagram (2).png"  alt="Logo-instagram" class="iconos-footer" ></a>
-          <a href="https://wa.me/+5492235981342" target="_blanck" > <img src="../imagenes/logo-whatsapp.png"  alt="logo-whatsapp" class="iconos-footer"  > </a>  
-       </div>
-    </footer>
+            <a href="https://www.facebook.com/profile.php?id=100057840344493" target="_blank" > <img src="../imagenes/logotipo-facebook.png"  alt="Logo-facebook" class="iconos-footer" > </a>
+            <a href="https://www.instagram.com/meraki_librerias/" target="_blank" > <img src="../imagenes/logo-instagram (2).png"  alt="Logo-instagram" class="iconos-footer" ></a>
+            <a href="https://wa.me/+5492235981342" target="_blanck" > <img src="../imagenes/logo-whatsapp.png"  alt="logo-whatsapp" class="iconos-footer"  > </a>  
+        </div>
+      </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   </body>
 </html>
