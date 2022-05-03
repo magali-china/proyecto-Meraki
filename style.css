@@ -258,11 +258,16 @@ main {
   transition: transform 3s;
 }
 
-.navbar-nav :hover {
+.navbar-nav a{
+color: #873cc5;
+}
+
+.navbar-nav a:hover {
   transform: scale(1.2);
   transition: 1s;
-
+  color: white;
 }
+
 
 section{
   height: 500px;
@@ -274,11 +279,11 @@ section{
 }
 
 .carousel-inner img{
-height: 400px;
+height: 350px;
 }
 .img-fluid{
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
 }
 
 .imagenes{
@@ -294,6 +299,7 @@ p{
 
 .footer{
   background-color: #df4ee4  ;
+  background-image: linear-gradient(to top, white);
 }
 
 .iconos {
