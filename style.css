@@ -4,11 +4,11 @@ font-family: 'Caveat', cursive;
 */
 
 /* CONTACTO  */
-.main-general{
+.main-general {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-evenly;
-  margin:50px;
+  justify-content: space-evenly;
+  margin: 50px;
 }
 
 .input {
@@ -31,9 +31,9 @@ font-family: 'Caveat', cursive;
 .input-button {
   position: relative;
   left: 100px;
-} 
+}
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width: 768px) {
   .input {
     left: 30px;
   }
@@ -42,26 +42,26 @@ font-family: 'Caveat', cursive;
   }
   .input-button {
     left: 60px;
-    bottom:5px;
-  } 
+    bottom: 5px;
+  }
 }
 
-.header{
-  background-color: #df4ee4 ;
+.header {
+  background-color: #df4ee4;
 }
 
-.logo{
+.logo {
   width: 50%;
 }
 
-.navbar-nav{
+.navbar-nav {
   font-family: "Caveat", cursive;
   font-size: 40px;
   transition: transform 3s;
 }
 
-.navbar-nav a{
-color: #873cc5 !important;  /* Use el important porque me pisaba el hover */
+.navbar-nav a {
+  color: #873cc5 !important; /* Use el important porque me pisaba el hover */
 }
 
 .navbar a:hover {
@@ -69,42 +69,42 @@ color: #873cc5 !important;  /* Use el important porque me pisaba el hover */
   color: white !important; /* Use el important porque me pisaba el hover */
 }
 
-
-section{
-  margin:5%;
+section {
+  margin: 5%;
 }
 
-.carousel-inner{
+.carousel-inner {
   height: 400px;
 }
 
-.carousel-inner img{
-height: 350px;
+.carousel-inner img {
+  height: 350px;
 }
-.img-fluid{
+.img-fluid {
   height: 350px;
   width: 350px;
 }
 
-.imagenes{
-  margin-top:50px;
+.imagenes {
+  margin-top: 50px;
 }
 
-.boton{
+.boton {
   display: flex;
   justify-content: center;
   text-decoration: none;
 }
 
-.boton-estilo{
+.boton-estilo {
   border-radius: 10px;
   background-color: #f252a7;
   padding: 5px;
   font-size: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.footer{
+.footer {
   background: linear-gradient(to right, #c733cc, #eec1f0);
 }
 
@@ -118,15 +118,14 @@ height: 350px;
   width: 50px;
   display: inline-block;
   margin: 30px;
-} 
-.foto-quienes-somos{
+}
+.foto-quienes-somos {
   width: 400px;
-  height: 350px;
+  height: 35px;
 }
 
-.lorem{
+.lorem {
   text-align: start;
   font-size: 20px;
   width: 400px;
 }
-
