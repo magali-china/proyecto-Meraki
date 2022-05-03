@@ -3,38 +3,12 @@ font-family: 'Amatic SC', cursive;
 font-family: 'Caveat', cursive;
 */
 
-/* QUIENES SOMOS */
-
-/* .info{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-evenly;
-}
-
-.info-item{
-  display: inline-block;
-  margin: 40px;
-  
-}
-.foto-quienes-somos{
-  width: 500px;
-  height: 350px;
-}
-
-.lorem{
-  text-align: start;
-  font-size: 20px;
-  width: 500px;
-}
-
-/* CONTACTO */
-/* .main-general{
+/* CONTACTO  */
+.main-general{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
   margin:50px;
-  position: relative;
-  top: 60px;
 }
 
 .input {
@@ -43,13 +17,12 @@ font-family: 'Caveat', cursive;
   padding-bottom: 5px;
   text-align: center;
   position: relative;
-  left: 80px;
+  left: 70px;
 }
 
 .input-mensaje {
   height: 50px;
   width: 250px;
-  padding-bottom: px;
   text-align: center;
   position: relative;
   left: 40px;
@@ -57,9 +30,21 @@ font-family: 'Caveat', cursive;
 
 .input-button {
   position: relative;
-  left: 130px;
-} */ 
+  left: 100px;
+} 
 
+@media only screen and (max-width:768px){
+  .input {
+    left: 30px;
+  }
+  .input-mensaje {
+    left: 0px;
+  }
+  .input-button {
+    left: 60px;
+    bottom:5px;
+  } 
+}
 
 .header{
   background-color: #df4ee4 ;
