@@ -121,7 +121,8 @@ section {
 }
 .foto-quienes-somos {
   width: 400px;
-  height: 35px;
+  height: 400px;
+  margin-top: 60px;
 }
 
 .lorem {
