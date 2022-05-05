@@ -1,0 +1,46 @@
+.header {
+  background-color: #df4ee4; }
+  .header .navbar .container-fluid .navbar-brand .logo {
+    width: 50%; }
+  .header .navbar .container-fluid .collapse .navbar-nav {
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    transition: transform 3s; }
+    .header .navbar .container-fluid .collapse .navbar-nav a {
+      color: #873cc5 !important;
+      /* Use el important porque me pisaba el hover */ }
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-link:hover {
+      transition: 2s;
+      color: white !important;
+      /* Use el important porque me pisaba el hover */ }
+
+section {
+  margin: 5%; }
+  section .row .imagenes {
+    margin-top: 50px; }
+    section .row .imagenes .carousel .carousel-inner {
+      height: 400px; }
+      section .row .imagenes .carousel .carousel-inner .carousel-item img {
+        height: 350px; }
+    section .row .imagenes .carousel .boton {
+      display: flex;
+      justify-content: center;
+      text-decoration: none; }
+      section .row .imagenes .carousel .boton .boton-estilo {
+        border-radius: 10px;
+        background-color: #f252a7;
+        padding: 5px;
+        font-size: 20px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+footer {
+  background: linear-gradient(to right, #c733cc, #eec1f0); }
+  footer .iconos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    footer .iconos-footer {
+      height: 50px;
+      width: 50px;
+      display: inline-block;
+      margin: 30px; }

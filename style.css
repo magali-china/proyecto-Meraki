@@ -46,6 +46,7 @@ font-family: 'Caveat', cursive;
   }
 }
 
+
 .header {
   background-color: #df4ee4;
 }
@@ -62,12 +63,12 @@ font-family: 'Caveat', cursive;
 
 .navbar-nav a {
   color: #873cc5 !important; /* Use el important porque me pisaba el hover */
-}
+ } 
 
 .navbar a:hover {
   transition: 2s;
   color: white !important; /* Use el important porque me pisaba el hover */
-}
+}  
 
 section {
   margin: 5%;
@@ -79,10 +80,6 @@ section {
 
 .carousel-inner img {
   height: 350px;
-}
-.img-fluid {
-  height: 350px;
-  width: 350px;
 }
 
 .imagenes {
@@ -119,6 +116,7 @@ section {
   display: inline-block;
   margin: 30px;
 }
+
 .foto-quienes-somos {
   width: 400px;
   height: 400px;

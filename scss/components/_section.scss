@@ -1,0 +1,31 @@
+section {
+  margin: 5%;
+  .row {
+    .imagenes {
+      margin-top: 50px;
+      .carousel {
+        .carousel-inner {
+          height: 400px;
+          .carousel-item {
+            img {
+              height: 350px;
+            }
+          }
+        }
+        .boton {
+          display: flex;
+          justify-content: center;
+          text-decoration: none;
+          .boton-estilo {
+            border-radius: 10px;
+            background-color: #f252a7;
+            padding: 5px;
+            font-size: 20px;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+              "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          }
+        }
+      }
+    }
+  }
+}

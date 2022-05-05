@@ -1,0 +1,14 @@
+footer {
+  background: $color-footer;
+  .iconos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &-footer {
+      height: 50px;
+      width: 50px;
+      display: inline-block;
+      margin: 30px;
+    }
+  }
+}
