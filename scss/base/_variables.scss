@@ -2,20 +2,21 @@ $color-header: #df4ee4;
 $color-nav-a: #873cc5;
 $color-nav-hover: white;
 $color-footer: linear-gradient(to right, #c733cc, #eec1f0);
-$estilo-boton:(
+$estilo-boton: (
   color: #f252a7,
   tamano-fuente: 20px,
   circulo: 10px,
 );
+ 
+/* EXTEND */
+%flex-center {
+  display: flex;
+  justify-content: center;
+} 
 
-.flex-center {
-    display:flex;
-    justify-content:center;
-};
 
-@mixin flexbox ($justify) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: $justify;
-};
-
+@mixin flexbox($justify) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: $justify;
+} ;

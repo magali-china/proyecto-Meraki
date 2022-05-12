@@ -14,7 +14,7 @@ section {
         }
         .boton {
           text-decoration: none;
-          @extend .flex-center;
+          @extend %flex-center;
           .boton-estilo {
             border-radius: map-get($estilo-boton, circulo);
             background-color: map-get($estilo-boton, color);
