@@ -1,0 +1,28 @@
+.header {
+  background-color: $color-header;
+  .navbar {
+    .container-fluid {
+      .navbar-brand {
+        .logo {
+          width: 50%;
+        }
+      }
+      .collapse {
+        .navbar-nav {
+          font-family: "Caveat", cursive;
+          font-size: 40px;
+          transition: transform 3s;
+          & a {
+            color: $color-nav-a !important; /* Use el important porque me pisaba el hover */
+          }
+          .nav-link {
+            &:hover {
+              transition: 2s;
+              color: $color-nav-hover !important; /* Use el important porque me pisaba el hover */
+            }
+          }
+        }
+      }
+    }
+  }
+}

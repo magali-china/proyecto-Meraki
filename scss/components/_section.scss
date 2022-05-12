@@ -1,0 +1,30 @@
+section {
+  margin: 5%;
+  .row {
+    .imagenes {
+      margin-top: 50px;
+      .carousel {
+        .carousel-inner {
+          height: 400px;
+          .carousel-item {
+            img {
+              height: 350px;
+            }
+          }
+        }
+        .boton {
+          text-decoration: none;
+          @extend %flex-center;
+          .boton-estilo {
+            border-radius: map-get($estilo-boton, circulo);
+            background-color: map-get($estilo-boton, color);
+            padding: 5px;
+            font-size: map-get($estilo-boton, tamano-fuente);
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+              "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          }
+        }
+      }
+    }
+  }
+}

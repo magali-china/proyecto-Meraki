@@ -18,6 +18,8 @@ font-family: 'Caveat', cursive;
   text-align: center;
   position: relative;
   left: 70px;
+<<<<<<< HEAD
+=======
 }
 
 .input-mensaje {
@@ -44,6 +46,34 @@ font-family: 'Caveat', cursive;
     left: 60px;
     bottom: 5px;
   }
+>>>>>>> sass
+}
+
+.input-mensaje {
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+
+<<<<<<< HEAD
+.input-button {
+  position: relative;
+  left: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .input {
+    left: 30px;
+  }
+  .input-mensaje {
+    left: 0px;
+  }
+  .input-button {
+    left: 60px;
+    bottom: 5px;
+  }
 }
 
 .header {
@@ -54,6 +84,16 @@ font-family: 'Caveat', cursive;
   width: 50%;
 }
 
+=======
+.header {
+  background-color: #df4ee4;
+}
+
+.logo {
+  width: 50%;
+}
+
+>>>>>>> sass
 .navbar-nav {
   font-family: "Caveat", cursive;
   font-size: 40px;
@@ -62,12 +102,20 @@ font-family: 'Caveat', cursive;
 
 .navbar-nav a {
   color: #873cc5 !important; /* Use el important porque me pisaba el hover */
+<<<<<<< HEAD
 }
+=======
+ } 
+>>>>>>> sass
 
 .navbar a:hover {
   transition: 2s;
   color: white !important; /* Use el important porque me pisaba el hover */
+<<<<<<< HEAD
 }
+=======
+}  
+>>>>>>> sass
 
 section {
   margin: 5%;
@@ -80,10 +128,13 @@ section {
 .carousel-inner img {
   height: 350px;
 }
+<<<<<<< HEAD
 .img-fluid {
   height: 350px;
   width: 350px;
 }
+=======
+>>>>>>> sass
 
 .imagenes {
   margin-top: 50px;
@@ -119,6 +170,10 @@ section {
   display: inline-block;
   margin: 30px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> sass
 .foto-quienes-somos {
   width: 400px;
   height: 400px;
@@ -130,3 +185,10 @@ section {
   font-size: 20px;
   width: 400px;
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> sass

@@ -1,0 +1,12 @@
+footer {
+  background: $color-footer;
+  .iconos {
+    @include flexbox(center);
+    &-footer {
+      height: 50px;
+      width: 50px;
+      display: inline-block;
+      margin: 30px;
+    }
+  }
+}
