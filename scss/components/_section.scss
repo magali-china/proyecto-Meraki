@@ -13,8 +13,8 @@ section {
           }
         }
         .boton {
-          @extend .flex-center;
           text-decoration: none;
+          @extend .flex-center;
           .boton-estilo {
             border-radius: map-get($estilo-boton, circulo);
             background-color: map-get($estilo-boton, color);
