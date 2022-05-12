@@ -13,14 +13,13 @@ section {
           }
         }
         .boton {
-          display: flex;
-          justify-content: center;
+          @extend .flex-center;
           text-decoration: none;
           .boton-estilo {
-            border-radius: 10px;
-            background-color: #f252a7;
+            border-radius: map-get($estilo-boton, circulo);
+            background-color: map-get($estilo-boton, color);
             padding: 5px;
-            font-size: 20px;
+            font-size: map-get($estilo-boton, tamano-fuente);
             font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
               "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
           }
