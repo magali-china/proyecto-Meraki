@@ -124,7 +124,49 @@ section {
 
 .lorem {
   text-align: start;
-  font-size: 20px;
+  font-size: 40px;
   width: 400px;
+  color:#873cc5;
+  padding-top: 40px;
+  font-family: "Caveat", cursive;
 }
 
+.faber{
+  height: 286px;
+}
+
+.cards{
+    padding-left: 40px;
+}
+.card{
+  display: inline-block;
+  margin: 15px;
+  border-radius: 1px;
+  border-color: black;
+  text-align: center;
+}
+
+.card-text{
+  font-weight: bold;
+  font-size: 20px;
+  color: #f252a7;
+}
+
+.btn{
+  background-color: #873cc5;
+  border:none;
+  color:white;
+}
+
+.img-buzz{
+  overflow: hidden;
+
+}
+
+
+
+
+
+
+
+ 
