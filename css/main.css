@@ -3,6 +3,10 @@ section .row .imagenes .carousel .boton {
   display: flex;
   justify-content: center; }
 
+/* GOOGLE FONTS
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;
+*/
 .header {
   background-color: #df4ee4; }
   .header .navbar .container-fluid .navbar-brand .logo {
@@ -47,3 +51,105 @@ footer {
       width: 50px;
       display: inline-block;
       margin: 30px; }
+
+/* LIBRERIA*/
+.main-libreria h1 {
+  font-family: "Amatic SC", cursiva;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 3px 3px 3px #873cc4;
+  color: #f079c8;
+  margin: 10px; }
+
+.main-libreria .cards {
+  padding-left: 40px; }
+  .main-libreria .cards .card {
+    display: inline-block;
+    margin: 15px;
+    border-radius: 1px;
+    border-color: black;
+    text-align: center; }
+    .main-libreria .cards .card .card-body .card-text {
+      font-weight: bold;
+      font-size: 20px;
+      color: #f252a7; }
+    .main-libreria .cards .card .card-body .btn {
+      background-color: #873cc5;
+      border: none;
+      color: white; }
+    .main-libreria .cards .card .faber {
+      height: 286px; }
+
+/* JUGUETERIA*/
+.main-jugueteria h1 {
+  font-family: "Amatic SC", cursiva;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 3px 3px 3px #873cc4;
+  color: #f079c8;
+  margin: 10px; }
+
+.main-jugueteria .cards {
+  padding-left: 40px; }
+  .main-jugueteria .cards .card {
+    display: inline-block;
+    margin: 15px;
+    border-radius: 1px;
+    border-color: black;
+    text-align: center; }
+    .main-jugueteria .cards .card .card-body .card-text {
+      font-weight: bold;
+      font-size: 20px;
+      color: #f252a7; }
+    .main-jugueteria .cards .card .card-body .btn {
+      background-color: #873cc5;
+      border: none;
+      color: white; }
+    .main-jugueteria .cards .card .img-buzz {
+      overflow: hidden; }
+
+/* QUIENES SOMOS */
+.container .row .item .lorem {
+  text-align: start;
+  font-size: 40px;
+  width: 400px;
+  color: #873cc5;
+  padding-top: 40px;
+  font-family: "Caveat", cursive; }
+
+.container .row .item .foto-quienes-somos {
+  width: 400px;
+  height: 400px;
+  margin-top: 60px; }
+
+/*CONTACTO*/
+.main-general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px; }
+  .main-general .formulario .input {
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+    left: 70px; }
+  .main-general .formulario .input-mensaje {
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: 40px; }
+  .main-general .formulario .input-button {
+    position: relative;
+    left: 100px; }
+
+@media only screen and (max-width: 900px) {
+  .main-general .formulario .input {
+    left: 30px; }
+  .main-general .formulario .input-mensaje {
+    left: 0px; }
+  .main-general .formulario .input-button {
+    left: 60px;
+    bottom: 5px; } }

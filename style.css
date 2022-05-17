@@ -1,7 +1,4 @@
-/* GOOGLE FONTS
-font-family: 'Amatic SC', cursive;
-font-family: 'Caveat', cursive;
-*/
+
 
 /* CONTACTO  */
 .main-general {
@@ -126,19 +123,19 @@ section {
   text-align: start;
   font-size: 40px;
   width: 400px;
-  color:#873cc5;
+  color: #873cc5;
   padding-top: 40px;
   font-family: "Caveat", cursive;
 }
 
-.faber{
+.faber {
   height: 286px;
 }
 
-.cards{
-    padding-left: 40px;
+.cards {
+  padding-left: 40px;
 }
-.card{
+.card {
   display: inline-block;
   margin: 15px;
   border-radius: 1px;
@@ -146,34 +143,29 @@ section {
   text-align: center;
 }
 
-.card-text{
+.card-text {
   font-weight: bold;
   font-size: 20px;
   color: #f252a7;
 }
 
-.btn{
+.btn {
   background-color: #873cc5;
-  border:none;
-  color:white;
-}
+  border: none;
+  color: white;
+} 
 
-.img-buzz{
+.img-buzz {
   overflow: hidden;
-
 }
 
-h1{
-  font-family: 'Amatic SC', cursiva;
+h1 {
+  font-family: "Amatic SC", cursiva;
   font-size: 80px;
   text-align: center;
   text-shadow: 3px 3px 3px #873cc4;
   color: rgb(240, 121, 200);
-  margin:10px;
+  margin: 10px;
 }
 
 
-
-
-
- 

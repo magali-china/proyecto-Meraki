@@ -1,0 +1,46 @@
+/*CONTACTO*/
+
+.main-general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px;
+  .formulario {
+    .input {
+      height: 25px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+      position: relative;
+      left: 70px;
+    }
+    .input-mensaje {
+      height: 50px;
+      width: 250px;
+      text-align: center;
+      position: relative;
+      left: 40px;
+    }
+    .input-button {
+      position: relative;
+      left: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .main-general {
+    .formulario {
+      .input {
+        left: 30px;
+      }
+      .input-mensaje {
+        left: 0px;
+      }
+      .input-button {
+        left: 60px;
+        bottom: 5px;
+      }
+    }
+  }
+}

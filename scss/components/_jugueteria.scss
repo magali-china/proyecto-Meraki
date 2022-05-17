@@ -1,0 +1,37 @@
+/* JUGUETERIA*/
+
+.main-jugueteria {
+  h1 {
+    font-family: "Amatic SC", cursiva;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #873cc4;
+    color: rgb(240, 121, 200);
+    margin: 10px;
+  }
+  .cards {
+    padding-left: 40px;
+    .card {
+      display: inline-block;
+      margin: 15px;
+      border-radius: 1px;
+      border-color: black;
+      text-align: center;
+      .card-body {
+        .card-text {
+          font-weight: bold;
+          font-size: 20px;
+          color: #f252a7;
+        }
+        .btn {
+          background-color: #873cc5;
+          border: none;
+          color: white;
+        }
+      }
+      .img-buzz {
+        overflow: hidden;
+      }
+    }
+  }
+}
