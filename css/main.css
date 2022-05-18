@@ -52,6 +52,10 @@ footer {
       display: inline-block;
       margin: 30px; }
 
+@media only screen and (max-width: 330px) {
+  footer .iconos-footer {
+    margin: 20px; } }
+
 /* LIBRERIA*/
 .main-libreria h1 {
   font-family: "Amatic SC", cursiva;
@@ -62,7 +66,7 @@ footer {
   margin: 10px; }
 
 .main-libreria .cards {
-  padding-left: 40px; }
+  text-align: center; }
   .main-libreria .cards .card {
     display: inline-block;
     margin: 15px;
@@ -90,7 +94,7 @@ footer {
   margin: 10px; }
 
 .main-jugueteria .cards {
-  padding-left: 40px; }
+  text-align: center; }
   .main-jugueteria .cards .card {
     display: inline-block;
     margin: 15px;
@@ -112,15 +116,13 @@ footer {
 .container .row .item .lorem {
   text-align: start;
   font-size: 40px;
-  width: 400px;
   color: #873cc5;
   padding-top: 40px;
   font-family: "Caveat", cursive; }
 
 .container .row .item .foto-quienes-somos {
-  width: 400px;
-  height: 400px;
-  margin-top: 60px; }
+  margin-top: 60px;
+  box-sizing: content-box; }
 
 /*CONTACTO*/
 .main-general {

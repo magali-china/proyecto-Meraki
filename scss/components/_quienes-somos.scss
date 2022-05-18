@@ -5,16 +5,16 @@
       .lorem {
         text-align: start;
         font-size: 40px;
-        width: 400px;
         color: #873cc5;
         padding-top: 40px;
         font-family: "Caveat", cursive;
       }
       .foto-quienes-somos {
-        width: 400px;
-        height: 400px;
         margin-top: 60px;
+        box-sizing: content-box;
       }
     }
   }
 }
+
+
