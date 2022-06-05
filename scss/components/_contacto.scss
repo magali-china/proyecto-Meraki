@@ -28,7 +28,9 @@
   }
 }
 
-@media only screen and (max-width:900px) {
+
+
+@media only screen and (max-width: 900px) {
   .main-general {
     .formulario {
       .input {
@@ -40,6 +42,26 @@
       .input-button {
         left: 60px;
         bottom: 5px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  .main-general {
+    .mapa {
+      .mapa-item {
+        width: 360px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 370px){
+  .main-general {
+    .mapa {
+      .mapa-item {
+        width: 300px;
       }
     }
   }

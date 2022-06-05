@@ -85,6 +85,10 @@ footer {
       height: 286px; }
 
 /* JUGUETERIA*/
+body {
+  background-image: url(../imagenes/fondo.jpg);
+  background-color: #060707; }
+
 .main-jugueteria h1 {
   font-family: "Amatic SC", cursiva;
   font-size: 80px;
@@ -155,3 +159,11 @@ footer {
   .main-general .formulario .input-button {
     left: 60px;
     bottom: 5px; } }
+
+@media only screen and (max-width: 408px) {
+  .main-general .mapa .mapa-item {
+    width: 360px; } }
+
+@media only screen and (max-width: 370px) {
+  .main-general .mapa .mapa-item {
+    width: 300px; } }
