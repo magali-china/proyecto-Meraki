@@ -1,12 +1,13 @@
 /* LIBRERIA*/
 .main-libreria {
+  background-image: url(/imagenes/fondo-libreria.jpg);
+  background-size: contain,cover;
   h1 {
     font-family: "Amatic SC", cursiva;
     font-size: 80px;
     text-align: center;
     text-shadow: 3px 3px 3px #873cc4;
     color: rgb(240, 121, 200);
-    margin: 10px;
   }
   .cards {
     text-align: center;

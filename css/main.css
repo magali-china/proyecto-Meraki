@@ -1,5 +1,5 @@
 /* EXTEND */
-section .row .imagenes .carousel .boton {
+.container .row .imagenes .carousel .boton {
   display: flex;
   justify-content: center; }
 
@@ -23,17 +23,17 @@ font-family: 'Caveat', cursive;
       color: white !important;
       /* Use el important porque me pisaba el hover */ }
 
-section {
+.container {
   margin: 5%; }
-  section .row .imagenes {
+  .container .row .imagenes {
     margin-top: 50px; }
-    section .row .imagenes .carousel .carousel-inner {
+    .container .row .imagenes .carousel .carousel-inner {
       height: 400px; }
-      section .row .imagenes .carousel .carousel-inner .carousel-item img {
+      .container .row .imagenes .carousel .carousel-inner .carousel-item img {
         height: 350px; }
-    section .row .imagenes .carousel .boton {
+    .container .row .imagenes .carousel .boton {
       text-decoration: none; }
-      section .row .imagenes .carousel .boton .boton-estilo {
+      .container .row .imagenes .carousel .boton .boton-estilo {
         border-radius: 10px;
         background-color: #f252a7;
         padding: 5px;
@@ -57,64 +57,63 @@ footer {
     margin: 20px; } }
 
 /* LIBRERIA*/
-.main-libreria h1 {
-  font-family: "Amatic SC", cursiva;
-  font-size: 80px;
-  text-align: center;
-  text-shadow: 3px 3px 3px #873cc4;
-  color: #f079c8;
-  margin: 10px; }
-
-.main-libreria .cards {
-  text-align: center; }
-  .main-libreria .cards .card {
-    display: inline-block;
-    margin: 15px;
-    border-radius: 1px;
-    border-color: black;
+.main-libreria {
+  background-image: url(/imagenes/fondo-libreria.jpg);
+  background-size: contain,cover; }
+  .main-libreria h1 {
+    font-family: "Amatic SC", cursiva;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #873cc4;
+    color: #f079c8; }
+  .main-libreria .cards {
     text-align: center; }
-    .main-libreria .cards .card .card-body .card-text {
-      font-weight: bold;
-      font-size: 20px;
-      color: #f252a7; }
-    .main-libreria .cards .card .card-body .btn {
-      background-color: #873cc5;
-      border: none;
-      color: white; }
-    .main-libreria .cards .card .faber {
-      height: 286px; }
+    .main-libreria .cards .card {
+      display: inline-block;
+      margin: 15px;
+      border-radius: 1px;
+      border-color: black;
+      text-align: center; }
+      .main-libreria .cards .card .card-body .card-text {
+        font-weight: bold;
+        font-size: 20px;
+        color: #f252a7; }
+      .main-libreria .cards .card .card-body .btn {
+        background-color: #873cc5;
+        border: none;
+        color: white; }
+      .main-libreria .cards .card .faber {
+        height: 286px; }
 
 /* JUGUETERIA*/
-body {
-  background-image: url(../imagenes/fondo.jpg);
-  background-color: #060707; }
-
-.main-jugueteria h1 {
-  font-family: "Amatic SC", cursiva;
-  font-size: 80px;
-  text-align: center;
-  text-shadow: 3px 3px 3px #873cc4;
-  color: #f079c8;
-  margin: 10px; }
-
-.main-jugueteria .cards {
-  text-align: center; }
-  .main-jugueteria .cards .card {
-    display: inline-block;
-    margin: 15px;
-    border-radius: 1px;
-    border-color: black;
+.main-jugueteria {
+  background-image: url(/imagenes/fondo2.jpg);
+  background-repeat: repeat-x;
+  background-size: contain, cover; }
+  .main-jugueteria h1 {
+    font-family: "Amatic SC", cursiva;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #873cc4;
+    color: #f079c8; }
+  .main-jugueteria .cards {
     text-align: center; }
-    .main-jugueteria .cards .card .card-body .card-text {
-      font-weight: bold;
-      font-size: 20px;
-      color: #f252a7; }
-    .main-jugueteria .cards .card .card-body .btn {
-      background-color: #873cc5;
-      border: none;
-      color: white; }
-    .main-jugueteria .cards .card .img-buzz {
-      overflow: hidden; }
+    .main-jugueteria .cards .card {
+      display: inline-block;
+      margin: 15px;
+      border-radius: 1px;
+      border-color: black;
+      text-align: center; }
+      .main-jugueteria .cards .card .card-body .card-text {
+        font-weight: bold;
+        font-size: 20px;
+        color: #f252a7; }
+      .main-jugueteria .cards .card .card-body .btn {
+        background-color: #873cc5;
+        border: none;
+        color: white; }
+      .main-jugueteria .cards .card .img-buzz {
+        overflow: hidden; }
 
 /* QUIENES SOMOS */
 .container .row .item .lorem {
