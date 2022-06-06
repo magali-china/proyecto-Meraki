@@ -1,5 +1,5 @@
 /* EXTEND */
-.container .row .imagenes .carousel .boton {
+section .row .imagenes .carousel .boton {
   display: flex;
   justify-content: center; }
 
@@ -23,17 +23,17 @@ font-family: 'Caveat', cursive;
       color: white !important;
       /* Use el important porque me pisaba el hover */ }
 
-.container {
+section {
   margin: 5%; }
-  .container .row .imagenes {
+  section .row .imagenes {
     margin-top: 50px; }
-    .container .row .imagenes .carousel .carousel-inner {
+    section .row .imagenes .carousel .carousel-inner {
       height: 400px; }
-      .container .row .imagenes .carousel .carousel-inner .carousel-item img {
+      section .row .imagenes .carousel .carousel-inner .carousel-item img {
         height: 350px; }
-    .container .row .imagenes .carousel .boton {
+    section .row .imagenes .carousel .boton {
       text-decoration: none; }
-      .container .row .imagenes .carousel .boton .boton-estilo {
+      section .row .imagenes .carousel .boton .boton-estilo {
         border-radius: 10px;
         background-color: #f252a7;
         padding: 5px;
@@ -116,14 +116,14 @@ footer {
         overflow: hidden; }
 
 /* QUIENES SOMOS */
-.container .row .item .lorem {
+.container-fluid .row .item .lorem {
   text-align: start;
   font-size: 40px;
   color: #873cc5;
   padding-top: 40px;
   font-family: "Caveat", cursive; }
 
-.container .row .item .foto-quienes-somos {
+.container-fluid .row .item .foto-quienes-somos {
   margin-top: 60px;
   box-sizing: content-box; }
 
