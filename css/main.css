@@ -87,8 +87,7 @@ footer {
 
 /* JUGUETERIA*/
 .main-jugueteria {
-  background-image: url(/imagenes/fondo2.jpg);
-  background-repeat: repeat-x;
+  background-image: url(../../imagenes/fondo2.jpg);
   background-size: contain, cover; }
   .main-jugueteria h1 {
     font-family: "Amatic SC", cursiva;
